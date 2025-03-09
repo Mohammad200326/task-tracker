@@ -69,21 +69,6 @@ const TaskDetails = () => {
         </div>
       </div>
     </div>
-    // <div>
-    //   <Link href="/">Back to Tasks</Link>
-    //   <div>
-    //     <h3>{task?.id}</h3>
-    //     <h3>{task?.completed ? "Completed" : "Pending"}</h3>
-    //     <h3>{task?.title}</h3>{" "}
-    //     <button onClick={copyTask}>Copy the task title</button>
-    //     <Image
-    //       src={`https://robohash.org/${id}?size=200x300`}
-    //       alt={`robot Image ${id}`}
-    //       width={200}
-    //       height={300}
-    //     />
-    //   </div>
-    // </div>
   );
 };
 
