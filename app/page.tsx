@@ -2,6 +2,9 @@ import { IResponse } from "./types/types";
 import TaskItem from "@/components/taskItem/TaskItem";
 
 const Home = async () => {
+  // This line to test loading.tsx
+  // await new Promise((resolve) => setTimeout(resolve, 5000));
+
   const data = await fetch(
     "https://jsonplaceholder.typicode.com/todos?_limit=5"
   );
